@@ -23,6 +23,6 @@ def binary_search(list, item):
     return None
 
 
-my_list = [1, 3, 5, 7, 9]
+my_list = range(1, 101)
 
 print(binary_search(my_list, input('Введите число\n')))
